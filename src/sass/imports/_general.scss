@@ -4,6 +4,7 @@
  */
 html {
   font-family: _font(primary);
+  font-weight: 300;
   font-size: 112.5%;
   height: 100%;
   min-height: 100%;
@@ -19,8 +20,8 @@ a {
   border-bottom: 1px solid currentColor;
   color: _palette(accent);
   text-decoration: none;
-  -webkit-transition: border-color .3s ease, color .3s ease;
-  transition: border-color .3s ease, color .3s ease;
+  -webkit-transition: border-color 0.3s ease, color 0.3s ease;
+  transition: border-color 0.3s ease, color 0.3s ease;
 
   &:hover,
   &:focus {
@@ -38,6 +39,7 @@ h6 {
   line-height: 1.2;
   margin: 2.5rem 0 0.83333rem;
   text-rendering: optimizeLegibility;
+  font-family: _font(secondary);
 
   &:first-child {
     margin-top: 0;
@@ -190,8 +192,8 @@ label {
   font-weight: bold;
 }
 
-input[type=checkbox]+label,
-input[type=radio]+label {
+input[type="checkbox"] + label,
+input[type="radio"] + label {
   cursor: pointer;
   padding-left: 0.25em;
   padding-right: 1em;
@@ -278,8 +280,8 @@ a.button {
     height: 32%;
     left: 0;
     position: absolute;
-    transition: .3s ease;
-    -webkit-transition: .3s ease;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
     width: 100%;
   }
 
@@ -328,8 +330,8 @@ a.button {
     height: 1px;
     left: 0;
     position: absolute;
-    -webkit-transition: width .3s;
-    transition: width .3s;
+    -webkit-transition: width 0.3s;
+    transition: width 0.3s;
     width: 0;
   }
 
