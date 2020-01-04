@@ -8,6 +8,15 @@ sections:
     section_id: hero
     title: 'Hi, I''m Stackbit Exto Portfolio Theme.'
     type: heroblock
+  - actions:
+      - label: View Blog
+        url: blog/index.html
+    component: PostsBlock
+    num_posts_displayed: 2
+    section_id: latest-posts
+    subtitle: An optional subtitle of the section
+    title: Latest from the Blog
+    type: postsblock
   - component: PortfolioBlock
     layout_style: mosaic
     num_projects_displayed: 6
@@ -59,15 +68,6 @@ sections:
           dui sollicitudin, vel posuere justo laoreet.
     title: Testimonials
     type: testimonialsblock
-  - actions:
-      - label: View Blog
-        url: blog/index.html
-    component: PostsBlock
-    num_posts_displayed: 2
-    section_id: latest-posts
-    subtitle: An optional subtitle of the section
-    title: Latest from the Blog
-    type: postsblock
   - component: ContactBlock
     section_id: contact
     subtitle: An optional subtitle of the section
